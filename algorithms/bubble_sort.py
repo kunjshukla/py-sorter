@@ -6,9 +6,9 @@
 
 def __bubble_sort(array: list) -> list:
     '''
-    bubble_sort uses the the bubble sort algorithm to sort a given array/list in incrementing order and returns it.
-
-    @param: array: list
+    __bubble_sort uses the the bubble sort algorithm to sort a given array/list in incrementing order and returns it.
+    @param: name: array
+            type: list
             The array to be sorted.
     @return: returns the sorted array.
     '''
@@ -26,4 +26,3 @@ def __bubble_sort(array: list) -> list:
             break
 
     return sorted_array
-                   
